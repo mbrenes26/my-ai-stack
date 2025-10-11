@@ -1,0 +1,27 @@
+# Secrets and env
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+
+# Videos & large/proprietary assets
+videos/
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+__pycache__/
+.ipynb_checkpoints/
+
+# Python build junk
+*.egg-info/
+dist/
+build/
