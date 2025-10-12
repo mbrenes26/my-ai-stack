@@ -1,4 +1,4 @@
-# Workflow: xdc_create_markdown_chapter
+# Workflow: xmy-create_markdown_chapter
 
 Purpose
 
@@ -14,6 +14,38 @@ Purpose
 ```
 $filename="<PUT_FILENAME>.md"
 ```
+    ## Filename Pattern Format
+
+    Follow this simple, consistent pattern for all Markdown files:
+
+    ```
+    #.##.##_<title_with_underscores>.md
+    ```
+
+    ### Structure
+
+    | Part                       | Meaning                            | Example              |
+    | -------------------------- | ---------------------------------- | -------------------- |
+    | `#`                        | Major chapter number               | `1`                  |
+    | `##`                       | Subchapter number                  | `01`                 |
+    | `##`                       | Subsection number                  | `02`                 |
+    | `_`                        | Separator                          | `_`                  |
+    | `<title_with_underscores>` | Short, lowercase title (no spaces) | `data_visualization` |
+    | `.md`                      | Markdown extension                 | `.md`                |
+
+    ### Rules
+
+    1. Use **leading zeros** (`01`, `02`) for sorting.
+    2. Use **underscores**, never spaces or dashes.
+    3. Keep titles **short and lowercase**.
+    4. Always end with `.md`.
+
+    ### Example
+
+    ```
+    2.03.01_probability_distributions.md
+    ```
+
 
 3. **Feed context**: paste any text, screenshots, quiz Q&A, and notes in separate messages. After **each** message you send, the agent replies with a short acknowledgement like:
 
