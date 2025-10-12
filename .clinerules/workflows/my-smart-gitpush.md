@@ -5,15 +5,20 @@ This workflow automates the process of committing and pushing Markdown files in 
 
 ## How YOU run it (operator perspective)
 
-1. **Ensure you are in a valid Git repository**:
-   - Navigate to the root directory of your Git repository.
-
-2. **Run the PowerShell script**:
-   - Open a PowerShell terminal.
+1. **Run the PowerShell 7 script**:
+   - Open a PowerShell 7 terminal.
    - Execute the script by running:
-     ```powershell
-     .\smart-commit.ps1
+     ```pwsh.exe -File .\.clinerules\scripts\smart-commit.ps1
      ```
+
+2. **Ensure you are in a valid Git repository**:
+   - Navigate to the root directory of your Git repository. Run $pwd and look for the .git folder:
+   ```powershell
+   $pwd
+   ls -la
+   # If .git folder is listed, run:
+   pwsh.exe -File .\.clinerules\scripts\smart-commit.ps1
+   ```
 
 3. **Follow the script prompts**:
    - The script will verify that Git is installed and check if you are on a valid branch.
@@ -26,11 +31,3 @@ This workflow automates the process of committing and pushing Markdown files in 
 - Ensure that you have the necessary permissions to push changes to the repository.
 - The script will only commit Markdown files found in the repository.
 - If you are on the main or master branch, the script will exit without making any changes.
-
-## Example Run
-```powershell
-# Navigate to your repository
-cd path\to\your\repository
-
-# Run the smart commit script
-.\smart-commit.ps1
