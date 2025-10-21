@@ -27,7 +27,6 @@ dist/
 build/
 
 #cline extension
-.cline/
 .env
 .env.*
 .env
