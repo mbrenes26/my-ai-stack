@@ -1,4 +1,4 @@
-# Markdown File Structure and Quality Rules
+# Markdown File Structure and Quality Rules (Updated)
 
 This document defines the **expected structure and formatting rules** for all Markdown chapters in this repository.  
 It ensures **consistency**, **clarity**, and **readability** across all study materials.
@@ -31,6 +31,9 @@ Each Markdown file should follow a **consistent hierarchical structure**:
 
 ```
 # <Chapter Title>
+
+## Context (optional)
+Brief description of the video or lesson this file accompanies.
 
 ## Overview
 Brief summary of the topic and its importance.
@@ -66,6 +69,7 @@ Brief summary of the topic and its importance.
 - Use **H2** for major sections (`##`).
 - Use **H3** only when necessary for subtopics.
 - Include **timestamps** (e.g., `[00:05]`) for video-based sections when applicable.
+- For video-based lessons, include timestamps in subsection titles to align with video segments.
 
 ### 3.2 Code Blocks
 - Use fenced code blocks with language identifiers:
@@ -74,6 +78,7 @@ Brief summary of the topic and its importance.
   ```
 - Include **inline comments** to clarify output or purpose.
 - Avoid unnecessary repetition of imports unless conceptually required.
+- Maintain **chronological flow** of examples when aligned with instructional media.
 
 ### 3.3 Lists and Bullets
 - Use `-` for unordered lists.
@@ -99,10 +104,12 @@ Brief summary of the topic and its importance.
 - Every concept should include **at least one example**.
 - Examples must be **runnable** and **self-contained**.
 - Prefer **NumPy**, **Pandas**, or **Python standard library** examples for consistency.
+- Maintain logical or chronological order when examples correspond to instructional media.
 
 ### 4.3 Summary Section
 - Required in every file.
 - Should include **3–5 concise takeaways** summarizing the main learning points.
+- Optionally include a **Key Points** section for quick review.
 
 ---
 
@@ -126,11 +133,13 @@ Before finalizing a Markdown file, verify the following:
 - [ ] Filename follows the naming convention.
 - [ ] Title and section headings are properly structured.
 - [ ] Overview section provides a clear summary.
+- [ ] Context section aligns with multimedia content (if applicable).
 - [ ] Each concept includes at least one example.
 - [ ] Code blocks are syntactically correct and formatted.
-- [ ] Summary section is present and concise.
+- [ ] Summary or Key Points section is present and concise.
 - [ ] No proprietary or non-ASCII content.
 - [ ] Consistent use of Markdown syntax and spacing.
+- [ ] Timestamps and contextual notes align with referenced multimedia content.
 
 ---
 
@@ -138,6 +147,9 @@ Before finalizing a Markdown file, verify the following:
 
 ```
 # 1.1.X Topic Title
+
+## Context (optional)
+Brief description of the video or lesson this file accompanies.
 
 ## Overview
 Brief description of what this section covers.
