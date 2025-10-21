@@ -33,13 +33,13 @@ Each Markdown file should follow a **consistent hierarchical structure**:
 # <Chapter Title>
 
 ## Context (optional)
-Brief description of the video or lesson this file accompanies.
+Detailed description of the video or lesson this file accompanies.
 
 ## Overview
-Brief summary of the topic and its importance.
+Detailed summary of the topic and its importance.
 
 ## Key Concepts
-- Bullet list of main ideas or definitions.
+- Bullet list of main ideas or definitions. Explain with your objective perspective.
 
 ## Worked Examples
 - Example 1: step-by-step explanation
