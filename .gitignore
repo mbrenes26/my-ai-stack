@@ -11,6 +11,7 @@ videos/
 *.mov
 *.avi
 *.mkv
+*.csv
 
 # OS / editor junk
 .DS_Store
